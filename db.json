@@ -1,0 +1,338 @@
+{
+  "best-restaurant": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Konro Mang Iwan",
+      "lokasi": "Jl. Riau no.15",
+      "is_ready": true,
+      "gambar": "konro-mang-iwan.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Iga Bakar Mas Giri",
+      "lokasi": "Jl. Riau no.34",
+      "is_ready": true,
+      "gambar": "iga-bakar-giri.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Sate Anggrek",
+      "lokasi": "Jl. Riau no.102",
+      "is_ready": true,
+      "gambar": "sate-anggrek.jpg"
+    }
+  ],
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Tengkleng",
+      "restoran": "Konro Mang Iwan",
+      "harga": "Rp.45.000",
+      "is_ready": true,
+      "gambar": "tengkleng.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Sate Kambing",
+      "restoran": "Sate Anggrek",
+      "harga": "Rp.30.000",
+      "is_ready": true,
+      "gambar": "sate-kambing.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Sop Iga",
+      "restoran": "Iga Bakar Mas Giri",
+      "harga": "Rp.40.000",
+      "is_ready": true,
+      "gambar": "sop-iga.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Iga Lada Hitam",
+      "harga": "Rp.40.000",
+      "restoran": "Iga Bakar Mas Giri",
+      "is_ready": true,
+      "gambar": "iga-blackpepper.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Tengkleng",
+      "restoran": "Konro Mang Iwan",
+      "harga": 45000,
+      "quantity": 1,
+      "is_ready": true,
+      "gambar": "tengkleng.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Sate Kambing",
+      "restoran": "Sate Anggrek",
+      "harga": 30000,
+      "quantity": 1,
+      "is_ready": true,
+      "gambar": "sate-kambing.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Sop Iga",
+      "restoran": "Iga Bakar Mas Giri",
+      "harga": 40000,
+      "quantity": 1,
+      "is_ready": true,
+      "gambar": "sop-iga.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Soto Ayam",
+      "harga": 20000,
+      "quantity": 1,
+      "restoran": "Soto Banyumas",
+      "is_ready": true,
+      "gambar": "soto-ayam.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Bolu Susu Coklat",
+      "harga": 41000,
+      "quantity": 1,
+      "restoran": "Bolu Susu Lembang",
+      "is_ready": true,
+      "gambar": "bolu-susu.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Konro Bakar",
+      "harga": 100000,
+      "quantity": 1,
+      "restoran": "Konro Mang Iwan",
+      "is_ready": true,
+      "gambar": "konro-bakar.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Ayam Geprek",
+      "harga": 25000,
+      "quantity": 1,
+      "restoran": "Ayam Bang Joni",
+      "is_ready": true,
+      "gambar": "ayam-geprek.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Bubur Ayam",
+      "harga": 20000,
+      "quantity": 1,
+      "restoran": "Bubur Kang Dodet",
+      "is_ready": true,
+      "gambar": "bubur-ayam.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Sayur Bening",
+      "harga": 15000,
+      "quantity": 1,
+      "restoran": "RM Ibu Haji",
+      "is_ready": true,
+      "gambar": "sayur-bening.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Nasi Putih",
+      "harga": 3000,
+      "quantity": 1,
+      "restoran": "RM Ibu Haji",
+      "is_ready": true,
+      "gambar": "nasi-putih.jpg"
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Air Mineral",
+      "harga": 5000,
+      "quantity": 1,
+      "restoran": "RM Ibu Haji",
+      "is_ready": true,
+      "gambar": "air-mineral.jpg"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Es Teh Manis",
+      "harga": 6000,
+      "quantity": 1,
+      "restoran": "RM Ibu Haji",
+      "is_ready": true,
+      "gambar": "es-teh.jpg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": {
+    "nama": "Yudhistira Santoso",
+    "alamat": "Jl. Danau Poso II no 2, Sawojajar, Kedungkandang, Malang, Jawa Timur",
+    "noTelp": "082229134746",
+    "pembayaran": "cash",
+    "keranjangs": [
+      {
+        "jumlah_pesanan": 2,
+        "products": {
+          "id": 2,
+          "kode": "K-02",
+          "nama": "Sate Kambing",
+          "restoran": "Sate Anggrek",
+          "harga": 30000,
+          "quantity": 1,
+          "is_ready": true,
+          "gambar": "sate-kambing.jpg"
+        },
+        "id": 1
+      },
+      {
+        "jumlah_pesanan": 2,
+        "products": {
+          "id": 4,
+          "kode": "K-04",
+          "nama": "Soto Ayam",
+          "harga": 20000,
+          "quantity": 1,
+          "restoran": "Soto Banyumas",
+          "is_ready": true,
+          "gambar": "soto-ayam.jpg"
+        },
+        "id": 2
+      }
+    ]
+  },
+  "reviewers": [
+    {
+      "id": 1,
+      "nama": "Farhan Satria Nugraha",
+      "asal": "Bandung",
+      "bio": "Paling suka si nasi padang, berhubung gue orang Bandung, jadi rata-rata suka yg pedes gitudeh",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Manis"
+        }
+      ],
+      "gambar": "farhan.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Yudhistira H.S",
+      "asal": "Bandung",
+      "bio": "Picky banget sih soal makanan, tapi paling suka kalo dah makan yang asin pedes, ada saran?",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
+      "gambar": "yudhis.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Tria Aprilia",
+      "asal": "Ciamis",
+      "bio": "Gasuka makan, tapi kalo sama ayang mau-mau aja",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Manis"
+        }
+      ],
+      "gambar": "tria.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Pria Archie Aryaguna",
+      "asal": "Bandung",
+      "bio": "Nasi uduk hunter!! makanan gurih asam pedas seperti nasi uduk udah gaada lawan",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
+      "gambar": "pria.jpg"
+    },
+    {
+      "id": 5,
+      "nama": "Jingga Devisa",
+      "asal": "Bandung",
+      "bio": "Sedang dicari makanan yang lucu manis tapi ga mau yang manis doang, kalo ada langsung hubungi hehe",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        }
+      ],
+      "gambar": "jingga.jpg"
+    },
+    {
+      "id": 6,
+      "nama": "Fahmi Ahmad Fauzi",
+      "asal": "Sukabumi",
+      "bio": "ga makan ga hidup tapi hidup jangan untuk makan, kecuali nasi padang gapapa kalo itu",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        }
+      ],
+      "gambar": "fahmi.jpg"
+    },
+    {
+      "id": 7,
+      "nama": "Dian Nurassyifa",
+      "asal": "Jakarta",
+      "bio": "gua makan kalo lagi laper, gua marah kalo lagi bete, situ bete karena laper nasi goreng solusinya",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Asin"
+        },
+        {
+          "id": 2,
+          "nama": "Manis"
+        }
+      ],
+      "gambar": "dian.jpg"
+    }
+  ]
+}
