@@ -1,28 +1,46 @@
 {
-  "best-restaurant": [
+  "restoran": [
     {
       "id": 1,
-      "kode": "K-01",
-      "nama": "Konro Mang Iwan",
-      "lokasi": "Jl. Riau no.15",
-      "is_ready": true,
-      "gambar": "konro-mang-iwan.jpg"
+      "nama": "Nasi Goreng Teh Ira",
+      "lokasi": "Jl. Riau no.56",
+      "gambar": "tehira.jfif"
     },
     {
       "id": 2,
-      "kode": "K-02",
-      "nama": "Iga Bakar Mas Giri",
-      "lokasi": "Jl. Riau no.34",
-      "is_ready": true,
-      "gambar": "iga-bakar-giri.jpg"
+      "nama": "Konro Mang Iwan",
+      "lokasi": "Jl. Riau no.15",
+      "gambar": "konro-mang-iwan.jpg"
     },
     {
       "id": 3,
-      "kode": "K-03",
+      "nama": "Iga Bakar Mas Giri",
+      "lokasi": "Jl. Riau no.34",
+      "gambar": "iga-bakar-giri.jpg"
+    },
+    {
+      "id": 4,
       "nama": "Sate Anggrek",
       "lokasi": "Jl. Riau no.102",
-      "is_ready": true,
       "gambar": "sate-anggrek.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Asin"
+    },
+    {
+      "id": 2,
+      "nama": "Manis"
+    },
+    {
+      "id": 3,
+      "nama": "Pedas"
+    },
+    {
+      "id": 4,
+      "nama": "Pedas Sedang"
     }
   ],
   "best-products": [
@@ -187,38 +205,25 @@
   ],
   "keranjangs": [],
   "pesanans": {
-    "nama": "Yudhistira Santoso",
-    "alamat": "Jl. Danau Poso II no 2, Sawojajar, Kedungkandang, Malang, Jawa Timur",
-    "noTelp": "082229134746",
+    "nama": "yudhis",
+    "alamat": "jl mana saja",
+    "noTelp": "123",
     "pembayaran": "cash",
     "keranjangs": [
       {
-        "jumlah_pesanan": 2,
+        "jumlah_pesanan": 4,
+        "keterangan": "1",
         "products": {
-          "id": 2,
-          "kode": "K-02",
-          "nama": "Sate Kambing",
-          "restoran": "Sate Anggrek",
-          "harga": 30000,
+          "id": 1,
+          "kode": "K-01",
+          "nama": "Tengkleng",
+          "restoran": "Konro Mang Iwan",
+          "harga": 45000,
           "quantity": 1,
           "is_ready": true,
-          "gambar": "sate-kambing.jpg"
+          "gambar": "tengkleng.jpg"
         },
         "id": 1
-      },
-      {
-        "jumlah_pesanan": 2,
-        "products": {
-          "id": 4,
-          "kode": "K-04",
-          "nama": "Soto Ayam",
-          "harga": 20000,
-          "quantity": 1,
-          "restoran": "Soto Banyumas",
-          "is_ready": true,
-          "gambar": "soto-ayam.jpg"
-        },
-        "id": 2
       }
     ]
   },
@@ -242,9 +247,9 @@
     },
     {
       "id": 2,
-      "nama": "Yudhistira H.S",
-      "asal": "Bandung",
-      "bio": "Picky banget sih soal makanan, tapi paling suka kalo dah makan yang asin pedes, ada saran?",
+      "nama": "Riva Zahra",
+      "asal": "Pekanbaru",
+      "bio": "Kangen banget masakan rumah, disini rasanya jarang ada yang cocok:(, Yang asalnya sama dari aku, minta sarannya juga dong!",
       "seleras": [
         {
           "id": 1,
@@ -255,7 +260,7 @@
           "nama": "Asin"
         }
       ],
-      "gambar": "yudhis.jpg"
+      "gambar": "riri.jpg"
     },
     {
       "id": 3,
@@ -333,6 +338,23 @@
         }
       ],
       "gambar": "dian.jpg"
+    },
+    {
+      "id": 8,
+      "nama": "Yudhistira Haryatmaka Santoso",
+      "asal": "Bandung",
+      "bio": "Picky banget sih soal makanan, tapi paling suka kalo dah makan yang asin pedes, ada saran?",
+      "seleras": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
+      "gambar": "yudhis.jpg"
     }
   ]
 }
