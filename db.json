@@ -86,6 +86,16 @@
       "id": 1,
       "kode": "K-01",
       "nama": "Tengkleng",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "restoran": "Konro Mang Iwan",
       "harga": 45000,
       "quantity": 1,
@@ -96,7 +106,18 @@
       "id": 2,
       "kode": "K-02",
       "nama": "Sate Kambing",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "restoran": "Sate Anggrek",
+      "deskripsi": "10 pcs Sate Kambing bisa request pake saos kacang atau kecap. Terenak seantero Bandung",
       "harga": 30000,
       "quantity": 1,
       "is_ready": true,
@@ -106,6 +127,16 @@
       "id": 3,
       "kode": "K-03",
       "nama": "Sop Iga",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "restoran": "Iga Bakar Mas Giri",
       "harga": 40000,
       "quantity": 1,
@@ -116,6 +147,16 @@
       "id": 4,
       "kode": "K-04",
       "nama": "Soto Ayam",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "harga": 20000,
       "quantity": 1,
       "restoran": "Soto Banyumas",
@@ -126,6 +167,12 @@
       "id": 5,
       "kode": "K-05",
       "nama": "Bolu Susu Coklat",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        }
+      ],
       "harga": 41000,
       "quantity": 1,
       "restoran": "Bolu Susu Lembang",
@@ -136,6 +183,16 @@
       "id": 6,
       "kode": "K-06",
       "nama": "Konro Bakar",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "harga": 100000,
       "quantity": 1,
       "restoran": "Konro Mang Iwan",
@@ -146,6 +203,16 @@
       "id": 7,
       "kode": "K-07",
       "nama": "Ayam Geprek",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Pedas"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "harga": 25000,
       "quantity": 1,
       "restoran": "Ayam Bang Joni",
@@ -156,6 +223,16 @@
       "id": 8,
       "kode": "K-08",
       "nama": "Bubur Ayam",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "harga": 20000,
       "quantity": 1,
       "restoran": "Bubur Kang Dodet",
@@ -166,6 +243,16 @@
       "id": 9,
       "kode": "K-09",
       "nama": "Sayur Bening",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        },
+        {
+          "id": 2,
+          "nama": "Asin"
+        }
+      ],
       "harga": 15000,
       "quantity": 1,
       "restoran": "RM Ibu Haji",
@@ -176,6 +263,12 @@
       "id": 10,
       "kode": "K-10",
       "nama": "Nasi Putih",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        }
+      ],
       "harga": 3000,
       "quantity": 1,
       "restoran": "RM Ibu Haji",
@@ -186,8 +279,15 @@
       "id": 11,
       "kode": "K-11",
       "nama": "Air Mineral",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        }
+      ],
       "harga": 5000,
       "quantity": 1,
+      "deskripsi": "Air dari pegunungan Andes untuk menyegarkan hari-harimu",
       "restoran": "RM Ibu Haji",
       "is_ready": true,
       "gambar": "air-mineral.jpg"
@@ -196,6 +296,12 @@
       "id": 12,
       "kode": "K-12",
       "nama": "Es Teh Manis",
+      "kategori": [
+        {
+          "id": 1,
+          "nama": "Manis"
+        }
+      ],
       "harga": 6000,
       "quantity": 1,
       "restoran": "RM Ibu Haji",
@@ -206,9 +312,7 @@
   "keranjangs": [],
   "cariselera": [
     {
-      "categories": [
-        "Sedang"
-      ],
+      "categories": ["Sedang"],
       "asal": "Ciamis",
       "address": "Jl. Riau",
       "id": 1
@@ -216,8 +320,8 @@
   ],
   "pesanans": {
     "id": 1,
-    "nama": "Yudhistira Haryatmaka S",
-    "alamat": "Jl Tanjungsari III no.5, Antapani",
+    "nama": "Yudhistira Santoso",
+    "alamat": "Jl. Danau Poso II no 2, Sawojajar, Kedungkandang, Malang, Jawa Timur",
     "noTelp": "082229134746",
     "pembayaran": "cash",
     "keranjangs": [
