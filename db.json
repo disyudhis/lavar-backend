@@ -204,24 +204,34 @@
     }
   ],
   "keranjangs": [],
+  "cariselera": [
+    {
+      "categories": [
+        "Sedang"
+      ],
+      "asal": "Ciamis",
+      "address": "Jl. Riau",
+      "id": 1
+    }
+  ],
   "pesanans": {
-    "nama": "yudhis",
-    "alamat": "jl mana saja",
-    "noTelp": "123",
+    "id": 1,
+    "nama": "Yudhistira Haryatmaka S",
+    "alamat": "Jl Tanjungsari III no.5, Antapani",
+    "noTelp": "082229134746",
     "pembayaran": "cash",
     "keranjangs": [
       {
-        "jumlah_pesanan": 4,
-        "keterangan": "1",
+        "jumlah_pesanan": 1,
         "products": {
-          "id": 1,
-          "kode": "K-01",
-          "nama": "Tengkleng",
-          "restoran": "Konro Mang Iwan",
-          "harga": 45000,
+          "id": 3,
+          "kode": "K-03",
+          "nama": "Sop Iga",
+          "restoran": "Iga Bakar Mas Giri",
+          "harga": 40000,
           "quantity": 1,
           "is_ready": true,
-          "gambar": "tengkleng.jpg"
+          "gambar": "sop-iga.jpg"
         },
         "id": 1
       }
